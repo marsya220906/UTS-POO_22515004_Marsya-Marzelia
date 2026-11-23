@@ -32,3 +32,26 @@ Getter dan setter:
 6. setProdi(prodi : String) : void
 7. getSemester() : int
 8. setSemester(semester : int) : void
+
+## MataKuliah
+Atribut:
+1. kode : String
+2. nama : String
+3. sks : int
+4. kuota : int
+5. jumlahTerisi : int
+
+Konstruktor:
+1. MataKuliah()
+2. MataKuliah(kode : String, nama : String, sks : int, kuota : int)
+
+Method perilaku:
+1. isPenuh() : boolean
+2. tambahPeserta() : boolean
+3. kurangiPeserta() : void
+4. sisaKuota() : int
+5. tampilkanInfo() : void
+
+Getter dan setter:
+1. getter dan setter untuk semua atribut
+2. setter memuat validasi (sks lebih dari 0, kuota lebih dari 0)
