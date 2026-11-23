@@ -120,3 +120,24 @@ Operasi publik:
 Penanganan kondisi batas:
 1. push saat penuh: mengembalikan false dan menampilkan pesan stack penuh.
 2. pop dan peek saat kosong: mengembalikan null dan menampilkan pesan stack kosong.
+
+## Main
+Atribut:
+1. scanner : Scanner
+2. kampus : Kampus
+
+Method:
+1. main(args : String[]) : void
+2. tampilkanMenu() : void (private)
+3. bacaInt(pesan : String) : int (private, validasi input angka)
+4. bacaString(pesan : String) : String (private, validasi input tidak kosong)
+
+Menu:
+1. Tambah dan tampilkan mahasiswa
+2. Tambah dan tampilkan mata kuliah
+3. Buat KRS (menghubungkan mahasiswa dan mata kuliah)
+4. Cari data (berdasarkan NIM atau kode)
+5. Operasi stack (push, pop, peek, tampilkan isi)
+6. Tampilkan ringkasan
+7. Keluar
+
