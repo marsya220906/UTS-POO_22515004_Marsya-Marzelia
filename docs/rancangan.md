@@ -75,3 +75,27 @@ Method perilaku:
 
 Getter dan setter:
 1. getter dan setter untuk semua atribut
+
+## Kampus
+Atribut:
+1. nama : String
+2. alamat : String
+3. daftarMahasiswa : ArrayList<Mahasiswa>
+4. daftarMataKuliah : ArrayList<MataKuliah>
+5. daftarKrs : ArrayList<KRS>
+6. riwayat : RiwayatStack
+
+Konstruktor:
+1. Kampus()
+2. Kampus(nama : String, alamat : String)
+
+Method perilaku:
+1. tambahMahasiswa(m : Mahasiswa) : boolean
+2. tambahMataKuliah(mk : MataKuliah) : boolean
+3. cariMahasiswa(nim : String) : Mahasiswa
+4. cariMataKuliah(kode : String) : MataKuliah
+5. buatKrs(nim : String, kodeMk : String) : boolean
+6. batalkanKrsTerakhir() : boolean (memakai pop pada RiwayatStack)
+7. tampilkanSemuaMahasiswa() : void
+8. tampilkanSemuaMataKuliah() : void
+9. tampilkanRingkasan() : void
