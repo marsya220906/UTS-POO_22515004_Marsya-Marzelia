@@ -99,3 +99,24 @@ Method perilaku:
 7. tampilkanSemuaMahasiswa() : void
 8. tampilkanSemuaMataKuliah() : void
 9. tampilkanRingkasan() : void
+
+## RiwayatStack (ADT Stack)
+Atribut (semua private):
+1. data : ArrayList<String>
+2. kapasitas : int
+
+Konstruktor:
+1. RiwayatStack(kapasitas : int)
+
+Operasi publik:
+1. push(aktivitas : String) : boolean
+2. pop() : String
+3. peek() : String
+4. isEmpty() : boolean
+5. isFull() : boolean
+6. size() : int
+7. tampilkan() : void
+
+Penanganan kondisi batas:
+1. push saat penuh: mengembalikan false dan menampilkan pesan stack penuh.
+2. pop dan peek saat kosong: mengembalikan null dan menampilkan pesan stack kosong.
