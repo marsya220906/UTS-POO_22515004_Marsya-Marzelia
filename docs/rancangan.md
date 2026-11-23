@@ -55,3 +55,23 @@ Method perilaku:
 Getter dan setter:
 1. getter dan setter untuk semua atribut
 2. setter memuat validasi (sks lebih dari 0, kuota lebih dari 0)
+
+## KRS
+Atribut:
+1. idKrs : String
+2. mahasiswa : Mahasiswa
+3. daftarMataKuliah : ArrayList<MataKuliah>
+4. aktif : boolean
+
+Konstruktor:
+1. KRS()
+2. KRS(idKrs : String, mahasiswa : Mahasiswa)
+
+Method perilaku:
+1. tambahMataKuliah(mk : MataKuliah) : boolean (cek batas 24 SKS, kuota, dan duplikat)
+2. hapusMataKuliah(kode : String) : boolean
+3. hitungTotalSks() : int
+4. tampilkanInfo() : void
+
+Getter dan setter:
+1. getter dan setter untuk semua atribut
